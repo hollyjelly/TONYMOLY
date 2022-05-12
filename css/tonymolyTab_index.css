@@ -1,0 +1,261 @@
+body{
+    position: relative;
+}
+div.menutopWrap>div.menuTop{
+    display: none;
+}
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 1024px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    display: none;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-last-child(1){
+    display: block;
+}
+div.mainWrap>div.main{
+    max-width: 1024px;
+    width: 90%;
+}
+div.mainWrap>div.main>div.group{
+    margin: 0 auto;
+}
+div.mainWrap>div.main>div.group:nth-child(1){
+    float: none;
+    width: calc(100% / 8 * 6);
+    height: 360px;
+}
+div.mainWrap>div.main>div.group:nth-child(2){
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* 컨텐츠공통 */
+
+div.cntWrap>div.content{
+     width: 90%;
+    max-width: 1024px; 
+}
+
+/* 컨텐츠1 */
+div.cntWrap>div.content.cnt01>div.header>p{
+    width: 70%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.images>div.image>div.ovrGrid{
+    max-width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts>div.ovrGrid{
+    max-width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+}
+
+/* 컨텐츠2 */
+div.cntWrap>div.content.cnt02>div.header>p{
+    width: 70%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
+    width: 200%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
+    width: calc(100% / 6 - 20px);
+}
+
+/* 컨텐츠3 */
+div.cntWrap>div.content.content.cnt03>div.header>h2{
+    width: 80%;
+}
+div.cntWrap>div.content.content.cnt03>div.section>div.artLeft{
+    width: calc(50% - 20px);
+    margin: 0px 10px;
+}
+div.cntWrap>div.content.content.cnt03>div.section>div.artMid{
+    width: calc(50% - 20px);
+    margin: 0px 10px;
+}
+div.cntWrap>div.content.content.cnt03>div.section>div.artRight{
+    width: calc(100% / 8 * 6);
+    margin: 0 auto;
+    float: none;
+}
+div.cntWrap>div.content.content.cnt03>div.section div.article{
+    position: relative;
+}
+div.cntWrap>div.content.content.cnt03>div.section>div.artRight>div.article{
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 0px 10px;
+    margin-top: 40px;
+}
+div.cntWrap>div.content.content.cnt03>div.section>div.artRight>div.article:nth-child(1)~div.article{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.content.cnt03>div.section div.article>div.image::after{
+    content: '+';
+    font-weight: 700;
+    font-size: 40px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+div.cntWrap>div.content.content.cnt03>div.section div.article>div.texts{
+    padding: 80px 0px 40px;
+    opacity: 0;
+    font-weight: 700;
+}
+div.cntWrap>div.content.content.cnt03>div.header>p{
+    height: 40px;
+    width: 90%;
+}
+
+/* 배너 */
+div.bntWrap>div.banner>div.texts>div.text>p{
+    display: none;
+}
+div.bntWrap>div.banner>div.images{
+    margin-top: -360px;
+
+}
+div.bntWrap>div.banner>div.images>div.image.i1{
+    width: calc(100% / 8 * 3);
+    height: 280px;
+}
+div.bntWrap>div.banner>div.images>div.image.i2{
+    display: none;
+}
+div.bntWrap>div.banner>div.texts>div.text{
+    width: 90%;
+    max-width: 1024px;
+    position: relative;
+    height: 280px;
+}
+div.bntWrap>div.banner>div.texts>div.text>h2{
+    font-size: 40px;
+    width: 50%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+div.bntWrap>div.banner>div.texts>div.text>h5{
+    font-size: 17px;
+    margin-right: 40px;
+    width: calc(100% / 8 * 4);
+    margin-top: 40px;
+}
+div.bntWrap>div.banner>div.texts>div.text>div.btn{
+    font-size: 18px;
+    position: absolute;
+    right: 22%;
+}
+/* 푸터 */
+div.ftrWrap{
+    padding: 40px 0px;
+}
+div.ftrWrap>div.footer{
+    max-width: 1024px;
+    width: 90%;
+}
+div.ftrWrap>div.footer>div.ftrLeft{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrTop>h1{
+    font-size: 40px;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrBtm{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrBtm>div.left{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrBtm>div.right{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrRight{
+    float: none;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrRight h3{
+    text-align: center;
+    font-size: 15px;
+}
+div.ftrWrap>div.footer>div.ftrRight p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+div.ftrWrap>div.footer>div.ftrInfo{
+    float: none;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrRight>div.bottom{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrInfo{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrInfo>h3{
+    margin-top: 0;
+    font-size: 24px;
+}
+div.ftrWrap>div.footer>div.ftrInfo>div.sns{
+    font-size: 30px;
+}
+/* 네비박스 */
+div.navBox{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0vw;
+    height: 100vh;
+    background-color: #e5ddd0;
+    overflow: hidden;
+    transition: all 0.8s;
+    opacity: 0;
+    z-index: 5;
+}
+div.navBox>div.top{
+    height: 80px;
+    font-size: 40px;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+div.navBox>div.top>div.img{
+    float: left;
+    background-image: url('../image/main_img/logo-tonystreet-main-x9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: calc(100% / 8 * 3);
+    height: 60px;
+    margin-top: 10px;
+}
+div.navBox>div.top>div.img>a{
+    opacity: 0;
+}
+div.navBox>div.top>div.btn{
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+}
+div.navBox>div.bottom{
+    margin-top: 120px;
+}
+div.navBox>div.bottom>ul.nav{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}

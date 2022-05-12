@@ -1,0 +1,183 @@
+/* 메뉴탑 */
+div.menutopWrap{
+    display: none;
+}
+
+/* 헤더 */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 1024px;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    display: none;
+}
+div.hdrWrap>div.header>ul.nav>li:nth-last-child(1){
+    display: block;
+    float: none;
+}
+/* 메인 */
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 1024px;
+}
+div.mainWrap>div.main>div.texts{
+    width: calc(100% / 8 * 4.5);
+}
+div.mainWrap>div.main>div.texts>h5{
+    font-size: 15px;
+}
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 40px;
+}
+div.mainWrap>div.main>div.texts>p{
+    margin-top: 0px;
+    width: 60%;
+}
+div.mainWrap>div.main>div.search{
+    display: none;
+}
+/* 컨텐츠 */
+div.cntWrap{
+    padding-bottom: 40px;
+}
+div.cntWrap>div.content>div.header{
+    height: 60px;
+    line-height: 60px;
+}
+div.cntWrap>div.content>div.header>ul.tab{
+    width: 100%;
+}
+div.cntWrap>div.content>div.header>ul.tab>li{
+    width: calc(100% / 3);
+    font-size: 25px;
+}
+div.cntWrap>div.content>div.header>ul.tab>li:nth-child(2){
+    width: calc(100% / 3);
+}
+div.cntWrap>div.content>div.section{
+    margin-top: 40px;
+    width: 90%;
+    max-width: 1080px;
+}
+div.cntWrap>div.content>div.section>div.group{
+    width: 85%;
+    margin: 0 auto;
+}
+div.cntWrap>div.content>div.section>div.group>div{
+    margin-top: 20px;
+}
+div.cntWrap>div.content>div.section>div.group div.article{
+    width: calc(100% / 6 * 3 - 20px);
+}
+div.cntWrap>div.content>div.section>div.group div.article:nth-child(2)~div.article{
+    margin-top: 40px;
+}
+/* 푸터 */
+div.ftrWrap{
+    padding: 40px 0px;
+}
+div.ftrWrap>div.footer{
+    max-width: 1024px;
+    width: 90%;
+}
+div.ftrWrap>div.footer>div.ftrLeft{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrTop>h1{
+    font-size: 40px;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrBtm{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrBtm>div.left{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrLeft>div.ftrBtm>div.right{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrRight{
+    float: none;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrRight h3{
+    text-align: center;
+    font-size: 15px;
+}
+div.ftrWrap>div.footer>div.ftrRight p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+div.ftrWrap>div.footer>div.ftrInfo{
+    float: none;
+    width: 100%;
+}
+div.ftrWrap>div.footer>div.ftrRight>div.bottom{
+    display: none;
+}
+div.ftrWrap>div.footer>div.ftrInfo{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrInfo>h3{
+    margin-top: 0;
+    font-size: 24px;
+}
+div.ftrWrap>div.footer>div.ftrInfo>div.sns{
+    font-size: 30px;
+}
+/* 네비박스 */
+div.navBox{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0vw;
+    height: 100vh;
+    background-color: #e5ddd0;
+    overflow: hidden;
+    transition: all 0.8s;
+    opacity: 0;
+    z-index: 5;
+}
+div.navBox>div.top{
+    height: 80px;
+    font-size: 40px;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+div.navBox>div.top>div.img{
+    float: left;
+    background-image: url('../image/main_img/logo-tonystreet-main-x9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: calc(100% / 8 * 3);
+    height: 60px;
+    margin-top: 10px;
+}
+div.navBox>div.top>div.img>a{
+    opacity: 0;
+}
+div.navBox>div.top>div.btn{
+    float: right;
+    line-height: 80px;
+}
+div.navBox>div.bottom{
+    margin-top: 120px;
+}
+div.navBox>div.bottom>ul.nav{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+.cart p{
+    font-size: 18px;
+}
