@@ -162,6 +162,8 @@ div.mainWrap>div.main>div.group>div.texts>h2{
     line-height: 40px;
     font-weight: 700;
     text-transform: uppercase;
+    height: 40px;
+    overflow: hidden;
 }
 div.mainWrap>div.main>div.group>div.texts>h2>br{
     display: none;
