@@ -206,3 +206,21 @@ div.navBox>div.top>div.img{
 div.navBox>div.bottom>ul.nav{
     font-size: 38px;
 }
+
+div.heart{
+    font-size: 200px;
+    width: 80%;
+    text-align: center;
+    height: 280px;
+}
+div.cart{
+    width: 80%;
+    height: 300px;
+    border: 5px solid #ff5c67;
+}
+div.cart>div.image{
+    height: 120px;
+}
+div.cart>h5{
+    font-size: 18px;
+}

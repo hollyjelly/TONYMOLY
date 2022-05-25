@@ -36,6 +36,9 @@ div.cntWrap>div.content.cnt01>div.header>h2{
 div.cntWrap>div.content.cnt01>div.header>h5{
     font-size: 12px;
 }
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: 40px;
+}
 div.cntWrap>div.content.cnt01>div.section>div.view>div.artGroup{
     width: 900%;
 }
@@ -50,7 +53,7 @@ div.cntWrap>div.content.cnt01>div.section>div.btns>div.btn{
 }
 /* 배너 */
 div.bnrWrap{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 div.bnrWrap>div.banner{
     padding: 20px 0px;
@@ -97,6 +100,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.top>div.pr>h3{
     font-size: 15px;
     line-height: 20px;
+    height: 20px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.btm{
     margin-top: 20px;

@@ -32,7 +32,7 @@ $(function(){
                    bt.text('MORE ▼');
                    i=0;
                }
-               se.css('height',( j+1)*910+'px');
+               se.css('height',( j+1)*930+'px');
            }
            console.log(j)
        });
@@ -121,7 +121,7 @@ $(function(){
     
     htt.find('i:eq(1)').click(function(){
         $(this).toggleClass('car');
-        cart.toggleClass('show5');
+        cart.eq(ind).toggleClass('show5');
 
     });
 

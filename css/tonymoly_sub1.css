@@ -177,7 +177,7 @@ div.cntWrap>div.content>div.header>ul.tab>li::after{
     display: block;
     width: 0px;
     height: 20px;
-    background-color: #fc0;
+    background-color: pink;
     opacity: 0.5;
     position: absolute;
     margin: auto;
@@ -206,7 +206,7 @@ div.cntWrap>div.content>div.section{
     max-width: 1080px;
     margin: 0 auto;
     margin-top: 80px;
-    height: 910px;
+    height: 920px;
     overflow: hidden;
     transition: all 0.5s;
 }
@@ -331,9 +331,9 @@ div.cntWrap>div.content>div.section>div.group div.article>div.texts::after{
 }
 div.cntWrap>div.content>div.section>div.group div.article>div.texts>h3{
     font-size: 20px;
-    line-height: 20px;
+    line-height: 25px;
     text-align: center;
-    height: 20px;
+    height: 25px;
     overflow: hidden;
 }
 div.cntWrap>div.content>div.section>div.group div.article>div.texts>h5{
@@ -524,8 +524,8 @@ div.navBox{
     display: none;
 }
 .cart{
-    width: 30%;
-    height: 100px;
+    width: 20%;
+    height: 315px;
     position: fixed;
     margin: auto;
     top: 0;
@@ -533,37 +533,48 @@ div.navBox{
     left: 0;
     right: 0;
     z-index: -1;
+    background: rgba(255, 225, 227, 0.6);
+    border: 8px solid #ff5c67;
     opacity: 0;
+    border-radius: 50%;
 }
 .cart.show5{
     animation-name: boxop;
     animation-duration: 2s;
-    z-index: 5;
+    z-index: -1;
 }
 @keyframes boxop{
     0%{
         opacity: 0;
+        z-index: 5;
     }
     50%{
         opacity: 1;
+        z-index: 5;
     }
     100%{
         opacity: 0;
+        z-index: 5;
     }
 }
+.cart .image{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../image/sub01_img/cart.png');
+    width: 60%;
+    height: 180px;
+    color: transparent;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 .cart p{
-    position: fixed;
     margin: auto;
     top: 0;
-    width: 50%;
-    height: 10rem;
-    line-height: 10rem;
-    font-size: 2.5em;
-    background: rgba(214, 156, 156, 0.6);
-    border-radius: 20px;
-    border: 2px solid rgb(243, 136, 136);
+    width: 70%;
+    font-size: 20px;
     text-align: center;
-    color: #fff;
+    color: #ff5c67;
     bottom: 0;
     left: 0;
     right: 0;

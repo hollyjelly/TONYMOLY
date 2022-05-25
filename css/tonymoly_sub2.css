@@ -420,6 +420,9 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    color: transparent;
+}
 
 /* 컨텐츠3 */
 div.cntWrap>div.content.cnt03{
@@ -613,13 +616,13 @@ div.navBox{
 div.heart{
     position: fixed;
     top: 0;
-    font-size: 600px;
+    font-size: 400px;
     color: red;
     left: 0;
     right: 0;
+    width: 21%;
     margin: auto;
-    width: 50%;
-    height: 600px;
+    height: 490px;
     top: 0;
     bottom: 0;
     opacity: 0;
@@ -645,15 +648,12 @@ div.cart{
     position: fixed;
     margin: auto;
     top: 0;
-    width: 50%;
-    height: 10rem;
-    line-height: 10rem;
+    width: 18%;
+    height: 350px;
     font-size: 2.5em;
-    background: rgba(214, 156, 156, 0.6);
-    border-radius: 20px;
-    border: 2px solid rgb(243, 136, 136);
-    text-align: center;
-    color: #fff;
+    border-radius: 50%;
+    background: rgba(255, 225, 227, 0.6);
+    border: 7px solid #ff5c67;
     bottom: 0;
     left: 0;
     right: 0;
@@ -661,10 +661,29 @@ div.cart{
     opacity: 0;
     z-index: -1;
 }
+div.cart>div.image{
+    background-image: url('../image/sub01_img/cart.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: transparent;
+}
+div.cart>h5{
+    font-size: 25px;
+    text-align: center;
+    color: #ff5c67;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
 div.cart.gog{
     animation-name: comon;
     animation-duration: 1.5s;
-    z-index: 3;
+    z-index: -1;
 }
 @keyframes gogon{
     0%{

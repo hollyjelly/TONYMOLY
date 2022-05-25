@@ -123,6 +123,7 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: transparent;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts{
     width: calc(100% / 8 * 4);
@@ -400,4 +401,10 @@ div.navBox>div.bottom>ul.nav{
     font-weight: 700;
     text-align: center;
     line-height: 100px;
+}
+div.heart{
+    width: 40%;
+}
+div.cart{
+    width: 35%;
 }

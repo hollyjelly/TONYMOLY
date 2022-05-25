@@ -124,6 +124,9 @@ div.bnrWrap>div.banner>div.btn{
     margin-top: 20px;
 }
 /* 컨텐츠2 */
+div.cntWrap:nth-last-child(3){
+    margin-top: 40px;
+}
 div.cntWrap>div.content.cnt02{
     width: 90%;
     max-width: 1024px;
@@ -244,6 +247,7 @@ div.navBox>div.top>div.img{
     width: calc(100% / 8 * 3);
     height: 60px;
     margin-top: 10px;
+    overflow: hidden;
 }
 div.navBox>div.top>div.img>a{
     opacity: 0;

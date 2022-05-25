@@ -54,6 +54,8 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.ovrGrid>div.
 /* 컨텐츠 */
 div.cntWrap:nth-child(4){
     padding: 0px;
+    padding-bottom: 40px;
+    margin-top: 60px;
 }
 div.cntWrap>div.content.cnt01{
     width: 100%;

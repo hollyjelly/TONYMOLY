@@ -133,16 +133,14 @@ div.mainWrap>div.main>div.search{
 }
 div.mainWrap>div.main>div.search>input{
     height: 35px;
-    width: 100;
+    width: 80%;
     border: 0;
-    margin-left: 20px;
 }
 div.mainWrap>div.main>div.search>i{
     font-size: 20px;
     font-weight: 700;
     color: #df9da4;
     line-height: 35px;
-    margin-left: 34px;
     cursor: pointer;
 }
 /* 컨텐츠공통 */
@@ -475,6 +473,9 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
     height: 80px;
     overflow: hidden;
     padding: 0px 10px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.btm>p>span{
+    font-weight: 700;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.btm>select{
     font-size: 15px;

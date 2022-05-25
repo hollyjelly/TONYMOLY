@@ -54,6 +54,9 @@ div.cntWrap>div.content>div.header>ul.tab>li{
 div.cntWrap>div.content>div.header>ul.tab>li:nth-child(2){
     width: calc(100% / 3);
 }
+div.cntWrap>div.content>div.header>ul.tab>li::after{
+    display: none;
+}
 div.cntWrap>div.content>div.section{
     margin-top: 40px;
     width: 90%;
@@ -177,6 +180,11 @@ div.navBox>div.bottom>ul.nav{
     font-weight: 700;
     text-align: center;
     line-height: 100px;
+}
+.cart{
+    width: 30%;
+    height: 300px;
+    border: 5px solid #ff5c67;
 }
 .cart p{
     font-size: 18px;
