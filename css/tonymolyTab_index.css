@@ -52,7 +52,10 @@ div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)>div.texts>div
     max-width: calc((100vw - 700px) / 2 + 100%);
     min-width: calc((100vw - 90vw) / 2 + 100%);
 }
-
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.ovrGrid>div.text>p{
+    width: 80%;
+    height: 60px;
+}
 /* 컨텐츠2 */
 div.cntWrap>div.content.cnt02>div.header>p{
     width: 70%;

@@ -74,7 +74,8 @@ div.cntWrap>div.content.cnt01>div.section>div.view>div.artGroup>div.article::aft
     content: 'more +';
     text-transform: uppercase;
     color: #fff;
-    line-height: 20px;
+    line-height: 25px;
+    height: 25px;
     border: 2px solid #fff;
     font-size: 13px;
     position: absolute;
@@ -88,6 +89,7 @@ div.cntWrap>div.content.cnt01>div.section>div.view>div.artGroup>div.article::aft
     box-shadow: 2px 2px 4px #999;
     font-weight: 700;
     text-shadow: 2px 2px 2px #999;
+    overflow: hidden;
 }
 div.cntWrap>div.content.cnt01>div.section>div.view>div.artGroup>div.article>div.image.i9{
     display: block;
@@ -151,6 +153,11 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.btm>p{
     height: 40px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 div.cntWrap>div.content.cnt02>div.section>div.btns>div.btn:nth-child(1){

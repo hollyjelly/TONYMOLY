@@ -618,15 +618,14 @@ div.heart{
     top: 0;
     font-size: 400px;
     color: red;
-    left: 0;
-    right: 0;
-    width: 21%;
+    width: 100%;
     margin: auto;
     height: 490px;
     top: 0;
     bottom: 0;
     opacity: 0;
     z-index: -1;
+    text-align: center;
 }
 div.heart.com{
     animation-name: comon;
@@ -660,6 +659,8 @@ div.cart{
     font-weight: 700;
     opacity: 0;
     z-index: -1;
+    max-width: 320px;
+    min-width: 320px;
 }
 div.cart>div.image{
     background-image: url('../image/sub01_img/cart.png');

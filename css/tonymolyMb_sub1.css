@@ -92,6 +92,7 @@ div.navBox>div.bottom>ul.nav{
 .cart{
     width: 50%;
     height: 200px;
+    min-width: 200px;
 }
 .cart .image{
     height: 115px;

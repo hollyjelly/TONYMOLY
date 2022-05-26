@@ -537,6 +537,8 @@ div.navBox{
     border: 8px solid #ff5c67;
     opacity: 0;
     border-radius: 50%;
+    max-width: 280px;
+    min-width: 280px;
 }
 .cart.show5{
     animation-name: boxop;
