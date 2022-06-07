@@ -94,6 +94,9 @@ div.cntWrap>div.content.cnt01>div.section>div.view>div.artGroup>div.article::aft
 div.cntWrap>div.content.cnt01>div.section>div.view>div.artGroup>div.article>div.image.i9{
     display: block;
 }
+div.cntWrap>div.content.cnt01>div.section>div.view>div.artGroup>div.article>div.texts>h3{
+    line-height: 25px;
+}
 div.cntWrap>div.content.cnt01>div.section>div.btns{
     display: block;
 }

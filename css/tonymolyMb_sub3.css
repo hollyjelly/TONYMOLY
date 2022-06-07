@@ -111,6 +111,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.btm>select{
     font-size: 12px;
     float: left;
+    background-color: #fff;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.btm>h4{
     font-size: 12px;

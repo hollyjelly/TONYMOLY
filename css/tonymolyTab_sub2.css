@@ -353,6 +353,7 @@ div.fixbtns>div.select>select{
     height: 40px;
     border: 0;
     text-align: center;
+    background-color: #fff;
 }
 /* 네비박스 */
 div.navBox{
