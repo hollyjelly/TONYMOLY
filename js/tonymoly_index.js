@@ -114,5 +114,7 @@ $(function(){
 
     }).resize();
 
+    console.log('<나현지>의 2번째 포트폴리오 tonymoly 봐주셔서 감사합니다(´▽`ʃ♡ƪ)');
+    console.log('디자인 : 임현진');
 
 });
